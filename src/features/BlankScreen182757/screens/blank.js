@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Input_53: "", Input_60: "" }
+  state = { Input_53: "", Input_60: "", Input_71: "" }
 
   render = () => (
     <View
@@ -206,10 +206,14 @@ export class _Blank extends React.Component {
               }}
             >
               <Image
-                resizeMode="cover"
+                resizeMode="contain"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/Screen_Shot_2020-07-22_at_1.20.48_PM.png"
+                }}
                 style={{
                   width: "100%",
-                  height: 200,
+                  height: "100%",
                   marginLeft: 0,
                   marginRight: 0,
                   marginTop: 0,
@@ -910,7 +914,7 @@ export class _Blank extends React.Component {
                   fontStyle: "normal",
                   fontWeight: "normal",
                   flexDirection: "column",
-                  flexWrap: "wrap",
+                  flexWrap: "nowrap",
                   justifyContent: "flex-start",
                   alignItems: "stretch",
                   alignContent: "stretch",
@@ -926,12 +930,12 @@ export class _Blank extends React.Component {
                 }}
               >
                 <Input
-                  placeholder="Sample text input placeholder"
+                  placeholder="What Type of Item Did you Order"
                   editable={true}
-                  textStyle={{ fontSize: 20, color: "#000000" }}
+                  textStyle={{ fontSize: 17, color: "#000000" }}
                   style={{
                     width: "100%",
-                    marginLeft: 0,
+                    marginLeft: 5,
                     marginRight: 0,
                     marginTop: 5,
                     marginBottom: 5,
@@ -942,7 +946,7 @@ export class _Blank extends React.Component {
                     overflow: "visible",
                     textAlign: "left",
                     verticalAlign: "baseline",
-                    fontSize: 20,
+                    fontSize: 17,
                     color: "#000000",
                     backgroundColor: "#ffffff",
                     fontStyle: "normal",
@@ -997,7 +1001,38 @@ export class _Blank extends React.Component {
                   borderRadius: 0,
                   backgroundSize: "auto"
                 }}
-              />
+              >
+                <Text
+                  style={{
+                    marginLeft: 5,
+                    marginRight: 0,
+                    marginTop: 5,
+                    marginBottom: 5,
+                    paddingLeft: 5,
+                    paddingRight: 5,
+                    paddingTop: 5,
+                    paddingBottom: 5,
+                    overflow: "visible",
+                    textAlign: "left",
+                    verticalAlign: "baseline",
+                    fontSize: 17,
+                    color: "#000000",
+                    backgroundColor: "#ffffff",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    borderColor: "#000000",
+                    borderStyle: "solid",
+                    borderWidth: 0,
+                    borderLeftWidth: 0,
+                    borderRightWidth: 0,
+                    borderTopWidth: 0,
+                    borderBottomWidth: 0,
+                    borderRadius: 0
+                  }}
+                >
+                  Explanation
+                </Text>
+              </View>
               <View
                 style={{
                   width: "100%",
@@ -1033,7 +1068,44 @@ export class _Blank extends React.Component {
                   borderRadius: 0,
                   backgroundSize: "auto"
                 }}
-              />
+              >
+                <Input
+                  placeholder="Describe your experiences with the product and seller"
+                  editable={true}
+                  textStyle={{ fontSize: 11, color: "#000000" }}
+                  style={{
+                    width: "100%",
+                    marginLeft: 5,
+                    marginRight: 0,
+                    marginTop: 5,
+                    marginBottom: 5,
+                    paddingLeft: 5,
+                    paddingRight: 5,
+                    paddingTop: 5,
+                    paddingBottom: 5,
+                    overflow: "visible",
+                    textAlign: "left",
+                    verticalAlign: "baseline",
+                    fontSize: 11,
+                    color: "#000000",
+                    backgroundColor: "#ffffff",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    borderColor: "#000000",
+                    borderStyle: "solid",
+                    borderWidth: 0,
+                    borderLeftWidth: 0,
+                    borderRightWidth: 0,
+                    borderTopWidth: 0,
+                    borderBottomWidth: 0,
+                    borderRadius: 0
+                  }}
+                  value={this.state.Input_71}
+                  onChangeText={nextValue =>
+                    this.setState({ Input_71: nextValue })
+                  }
+                />
+              </View>
             </View>
           </View>
         </View>
