@@ -547,10 +547,10 @@ export class _Blank extends React.Component {
             marginRight: "4%",
             marginTop: "2%",
             marginBottom: "2%",
-            paddingLeft: 0,
-            paddingRight: 0,
-            paddingTop: 0,
-            paddingBottom: 0,
+            paddingLeft: "3%",
+            paddingRight: "3%",
+            paddingTop: "2%",
+            paddingBottom: "2%",
             overflow: "visible",
             textAlign: "left",
             verticalAlign: "baseline",
@@ -574,7 +574,44 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Text
+            style={{
+              width: "100%",
+              height: "100%",
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 18,
+              color: "#5d5b5d",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Perfect Item for you and your family! I bought it four years ago but
+            am moving now and need to get rid of it. I am selling if for a great
+            price and it will be great for you and your family too. I can ship
+            to anywhere in the country and it will be packaged in a really small
+            box.
+          </Text>
+        </View>
         <View
           style={{
             width: "96%",
