@@ -137,21 +137,22 @@ export class _Blank extends React.Component {
         >
           <Button
             style={{
-              width: "100%",
-              marginLeft: 0,
+              width: "20%",
+              height: "100%",
+              marginLeft: "2%",
               marginRight: 0,
-              marginTop: 5,
-              marginBottom: 5,
-              paddingLeft: 5,
-              paddingRight: 5,
-              paddingTop: 5,
-              paddingBottom: 5,
+              marginTop: "02%",
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
               overflow: "visible",
               textAlign: "center",
               verticalAlign: "baseline",
-              fontSize: 20,
+              fontSize: 16,
               color: "#ffffff",
-              backgroundColor: "#000000",
+              backgroundColor: "#0000ff",
               fontStyle: "normal",
               fontWeight: "normal",
               borderColor: "#000000",
@@ -165,7 +166,7 @@ export class _Blank extends React.Component {
             }}
             onPress={() => alert("Pressed!")}
           >
-            Press me!
+            Back
           </Button>
         </ImageBackground>
         <View
@@ -203,18 +204,186 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <View
+            style={{
+              width: "100%",
+              height: "50%",
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
+              alignContent: "stretch",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              backgroundSize: "auto"
+            }}
+          >
+            <View
+              style={{
+                width: "68%",
+                height: "97%",
+                marginLeft: "2%",
+                marginRight: 0,
+                marginTop: "3%",
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            >
+              <Text
+                style={{
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginTop: 0,
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "left",
+                  verticalAlign: "baseline",
+                  fontSize: 17,
+                  color: "#5d5b5d",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0
+                }}
+              >
+                Backyard patio set with four chairs and table
+              </Text>
+            </View>
+            <View
+              style={{
+                width: "30%",
+                height: "097%",
+                marginLeft: 0,
+                marginRight: 0,
+                marginTop: "3%",
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            >
+              <Text
+                style={{
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginTop: 0,
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "center",
+                  verticalAlign: "baseline",
+                  fontSize: 32,
+                  color: "#fd6f80",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0
+                }}
+              >
+                $220
+              </Text>
+            </View>
+          </View>
+        </View>
         <View
           style={{
-            width: "100%",
+            width: "96%",
             height: "1%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
             marginBottom: 0,
-            paddingLeft: 0,
+            paddingLeft: "4%",
             paddingRight: 0,
-            paddingTop: 0,
+            paddingTop: "2%",
             paddingBottom: 0,
             overflow: "visible",
             textAlign: "left",
@@ -238,15 +407,45 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "600",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Item Information
+          </Text>
+        </View>
         <View
           style={{
-            width: "100%",
+            width: "92%",
             height: "22%",
-            marginLeft: 0,
-            marginRight: 0,
-            marginTop: 0,
-            marginBottom: 0,
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginTop: "2%",
+            marginBottom: "2%",
             paddingLeft: 0,
             paddingRight: 0,
             paddingTop: 0,
@@ -277,11 +476,11 @@ export class _Blank extends React.Component {
         />
         <View
           style={{
-            width: "100%",
+            width: "96%",
             height: "1%",
-            marginLeft: 0,
+            marginLeft: "4%",
             marginRight: 0,
-            marginTop: 0,
+            marginTop: "2%",
             marginBottom: 0,
             paddingLeft: 0,
             paddingRight: 0,
@@ -309,15 +508,45 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "600",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Item Description
+          </Text>
+        </View>
         <View
           style={{
-            width: "100%",
+            width: "92%",
             height: "18%",
-            marginLeft: 0,
-            marginRight: 0,
-            marginTop: 0,
-            marginBottom: 0,
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginTop: "2%",
+            marginBottom: "2%",
             paddingLeft: 0,
             paddingRight: 0,
             paddingTop: 0,
@@ -348,11 +577,11 @@ export class _Blank extends React.Component {
         />
         <View
           style={{
-            width: "100%",
+            width: "96%",
             height: "1%",
-            marginLeft: 0,
+            marginLeft: "4%",
             marginRight: 0,
-            marginTop: 0,
+            marginTop: "2%",
             marginBottom: 0,
             paddingLeft: 0,
             paddingRight: 0,
@@ -380,15 +609,45 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "600",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Sold By
+          </Text>
+        </View>
         <View
           style={{
-            width: "100%",
+            width: "92%",
             height: "4%",
-            marginLeft: 0,
-            marginRight: 0,
-            marginTop: 0,
-            marginBottom: 0,
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginTop: "1%",
+            marginBottom: "1%",
             paddingLeft: 0,
             paddingRight: 0,
             paddingTop: 0,
