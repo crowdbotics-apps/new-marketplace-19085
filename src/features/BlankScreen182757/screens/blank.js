@@ -204,34 +204,7 @@ export class _Blank extends React.Component {
                 borderRadius: 0,
                 backgroundSize: "auto"
               }}
-            >
-              <Image
-                resizeMode="cover"
-                style={{
-                  width: "100%",
-                  height: 200,
-                  marginLeft: 0,
-                  marginRight: 0,
-                  marginTop: 0,
-                  marginBottom: 0,
-                  paddingLeft: 0,
-                  paddingRight: 0,
-                  paddingTop: 0,
-                  paddingBottom: 0,
-                  overflow: "visible",
-                  textAlign: "left",
-                  verticalAlign: "baseline",
-                  borderColor: "#000000",
-                  borderStyle: "solid",
-                  borderWidth: 0,
-                  borderLeftWidth: 0,
-                  borderRightWidth: 0,
-                  borderTopWidth: 0,
-                  borderBottomWidth: 0,
-                  borderRadius: 0
-                }}
-              />
-            </View>
+            />
             <View
               style={{
                 width: "60%",
@@ -267,38 +240,7 @@ export class _Blank extends React.Component {
                 borderRadius: 0,
                 backgroundSize: "auto"
               }}
-            >
-              <Text
-                style={{
-                  marginLeft: 0,
-                  marginRight: 0,
-                  marginTop: 20,
-                  marginBottom: 5,
-                  paddingLeft: 5,
-                  paddingRight: 5,
-                  paddingTop: 5,
-                  paddingBottom: 5,
-                  overflow: "visible",
-                  textAlign: "left",
-                  verticalAlign: "baseline",
-                  fontSize: 20,
-                  color: "#000000",
-                  backgroundColor: "#f4f5f9",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                  borderColor: "#000000",
-                  borderStyle: "solid",
-                  borderWidth: 0,
-                  borderLeftWidth: 0,
-                  borderRightWidth: 0,
-                  borderTopWidth: 0,
-                  borderBottomWidth: 0,
-                  borderRadius: 0
-                }}
-              >
-                Christina Smith
-              </Text>
-            </View>
+            />
             <View
               style={{
                 width: "20%",
@@ -334,38 +276,7 @@ export class _Blank extends React.Component {
                 borderRadius: 0,
                 backgroundSize: "auto"
               }}
-            >
-              <Text
-                style={{
-                  marginLeft: 0,
-                  marginRight: 0,
-                  marginTop: 23,
-                  marginBottom: 5,
-                  paddingLeft: 5,
-                  paddingRight: 5,
-                  paddingTop: 5,
-                  paddingBottom: 5,
-                  overflow: "visible",
-                  textAlign: "center",
-                  verticalAlign: "baseline",
-                  fontSize: 15,
-                  color: "#000000",
-                  backgroundColor: "#f4f5f9",
-                  fontStyle: "normal",
-                  fontWeight: "500",
-                  borderColor: "#000000",
-                  borderStyle: "solid",
-                  borderWidth: 0,
-                  borderLeftWidth: 0,
-                  borderRightWidth: 0,
-                  borderTopWidth: 0,
-                  borderBottomWidth: 0,
-                  borderRadius: 0
-                }}
-              >
-                4.7/5
-              </Text>
-            </View>
+            />
           </View>
         </View>
         <View
