@@ -255,7 +255,7 @@ export class _Blank extends React.Component {
                 verticalAlign: "baseline",
                 fontSize: 20,
                 color: "#000000",
-                backgroundColor: "#ffffff",
+                backgroundColor: "#fd6f80",
                 fontStyle: "normal",
                 fontWeight: "normal",
                 flexDirection: "column",
@@ -293,7 +293,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#f4f5f9",
             fontStyle: "normal",
             fontWeight: "normal",
             flexDirection: "column",
@@ -329,7 +329,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#f4f5f9",
             fontStyle: "normal",
             fontWeight: "normal",
             flexDirection: "column",
@@ -347,7 +347,40 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Button
+            style={{
+              width: "80%",
+              marginLeft: "10%",
+              marginRight: "10%",
+              marginTop: 20,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 10,
+              paddingBottom: 10,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#ffffff",
+              backgroundColor: "#fd6f80",
+              fontStyle: "italic",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+            onPress={() => alert("Pressed!")}
+          >
+            Proceed to Checkout
+          </Button>
+        </View>
       </View>
     </View>
   )
