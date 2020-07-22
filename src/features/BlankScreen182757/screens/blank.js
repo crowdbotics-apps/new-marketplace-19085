@@ -258,7 +258,7 @@ export class _Blank extends React.Component {
                   color: "#000000",
                   backgroundColor: "#f4f5f9",
                   fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontWeight: "bold",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
