@@ -957,7 +957,7 @@ export class _Blank extends React.Component {
                     style={{
                       marginLeft: "4%",
                       marginRight: 0,
-                      marginTop: "6%",
+                      marginTop: "8%",
                       marginBottom: 0,
                       paddingLeft: 0,
                       paddingRight: 0,
@@ -966,7 +966,7 @@ export class _Blank extends React.Component {
                       overflow: "visible",
                       textAlign: "left",
                       verticalAlign: "baseline",
-                      fontSize: 17,
+                      fontSize: 14,
                       color: "#5d5b5d",
                       backgroundColor: "#ffffff",
                       fontStyle: "normal",
@@ -1160,7 +1160,38 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: "4%",
+                      marginRight: 0,
+                      marginTop: "6%",
+                      marginBottom: 0,
+                      paddingLeft: 0,
+                      paddingRight: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: 17,
+                      color: "#5d5b5d",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    Homall
+                  </Text>
+                </View>
                 <View
                   style={{
                     width: "100%",
@@ -1196,7 +1227,38 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: "4%",
+                      marginRight: 0,
+                      marginTop: "6%",
+                      marginBottom: 0,
+                      paddingLeft: 0,
+                      paddingRight: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: 17,
+                      color: "#5d5b5d",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    Beige
+                  </Text>
+                </View>
                 <View
                   style={{
                     width: "100%",
@@ -1232,7 +1294,38 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: "4%",
+                      marginRight: 0,
+                      marginTop: "6%",
+                      marginBottom: 0,
+                      paddingLeft: 0,
+                      paddingRight: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: 17,
+                      color: "#5d5b5d",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    1
+                  </Text>
+                </View>
                 <View
                   style={{
                     width: "100%",
@@ -1268,7 +1361,38 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: "4%",
+                      marginRight: 0,
+                      marginTop: "6%",
+                      marginBottom: 0,
+                      paddingLeft: 0,
+                      paddingRight: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: 17,
+                      color: "#5d5b5d",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    Furniture
+                  </Text>
+                </View>
                 <View
                   style={{
                     width: "100%",
@@ -1304,7 +1428,38 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: "4%",
+                      marginRight: 0,
+                      marginTop: "8%",
+                      marginBottom: 0,
+                      paddingLeft: 0,
+                      paddingRight: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: 13,
+                      color: "#5d5b5d",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "600",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    7-9 days | from CA
+                  </Text>
+                </View>
               </View>
             </View>
           </View>
@@ -1443,8 +1598,7 @@ export class _Blank extends React.Component {
             Perfect Item for you and your family! I bought it four years ago but
             am moving now and need to get rid of it. I am selling if for a great
             price and it will be great for you and your family too. I can ship
-            to anywhere in the country and it will be packaged in a really small
-            box.
+            to anywhere in the country!
           </Text>
         </View>
         <View
