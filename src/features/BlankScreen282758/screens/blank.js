@@ -25,11 +25,46 @@ export class _Blank extends React.Component {
   state = {}
 
   render = () => (
-    <ScrollView>
+    <View
+      style={{
+        width: "100%",
+        height: "200%",
+        marginLeft: 0,
+        marginRight: 0,
+        marginTop: 0,
+        marginBottom: 0,
+        paddingLeft: 0,
+        paddingRight: 0,
+        paddingTop: 0,
+        paddingBottom: 0,
+        overflow: "visible",
+        textAlign: "center",
+        verticalAlign: "baseline",
+        fontSize: 20,
+        color: "#000000",
+        backgroundColor: "#f4f5f9",
+        fontStyle: "normal",
+        fontWeight: "normal",
+        flexDirection: "column",
+        flexWrap: "wrap",
+        justifyContent: "flex-start",
+        alignItems: "stretch",
+        alignContent: "stretch",
+        borderColor: "#000000",
+        borderStyle: "solid",
+        borderWidth: 0,
+        borderLeftWidth: 0,
+        borderRightWidth: 0,
+        borderTopWidth: 0,
+        borderBottomWidth: 0,
+        borderRadius: 0,
+        backgroundSize: "auto"
+      }}
+    >
       <View
         style={{
           width: "100%",
-          height: "200%",
+          height: "100%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -39,11 +74,10 @@ export class _Blank extends React.Component {
           paddingTop: 0,
           paddingBottom: 0,
           overflow: "visible",
-          textAlign: "center",
+          textAlign: "left",
           verticalAlign: "baseline",
           fontSize: 20,
           color: "#000000",
-          backgroundColor: "#f4f5f9",
           fontStyle: "normal",
           fontWeight: "normal",
           flexDirection: "column",
@@ -62,10 +96,590 @@ export class _Blank extends React.Component {
           backgroundSize: "auto"
         }}
       >
+        <ImageBackground
+          source={{
+            uri:
+              "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/81hug9CVnnL._AC_SL1500__tEUytBi.jpg"
+          }}
+          style={{
+            width: "100%",
+            height: "17%",
+            marginLeft: 0,
+            marginRight: 0,
+            marginTop: 0,
+            marginBottom: 0,
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "cover"
+          }}
+        >
+          <Button
+            style={{
+              width: "20%",
+              height: "100%",
+              marginLeft: "2%",
+              marginRight: 0,
+              marginTop: "02%",
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 16,
+              color: "#ffffff",
+              backgroundColor: "#00ffaa",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+            onPress={() => alert("Pressed!")}
+          >
+            Back
+          </Button>
+        </ImageBackground>
         <View
           style={{
             width: "100%",
-            height: "100%",
+            height: "5%",
+            marginLeft: 0,
+            marginRight: 0,
+            marginTop: 0,
+            marginBottom: 0,
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            backgroundColor: "#ffffff",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        >
+          <View
+            style={{
+              width: "100%",
+              height: "50%",
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
+              alignContent: "stretch",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              backgroundSize: "auto"
+            }}
+          >
+            <View
+              style={{
+                width: "68%",
+                height: "97%",
+                marginLeft: "2%",
+                marginRight: 0,
+                marginTop: "3%",
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            >
+              <Text
+                style={{
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginTop: 0,
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "left",
+                  verticalAlign: "baseline",
+                  fontSize: 17,
+                  color: "#5d5b5d",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0
+                }}
+              >
+                Backyard patio set with four chairs and table
+              </Text>
+            </View>
+            <View
+              style={{
+                width: "30%",
+                height: "097%",
+                marginLeft: 0,
+                marginRight: 0,
+                marginTop: "3%",
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            >
+              <Text
+                style={{
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginTop: 0,
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "center",
+                  verticalAlign: "baseline",
+                  fontSize: 32,
+                  color: "#fd6f80",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0
+                }}
+              >
+                $220
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={{
+            width: "96%",
+            height: "1%",
+            marginLeft: 0,
+            marginRight: 0,
+            marginTop: 0,
+            marginBottom: 0,
+            paddingLeft: "4%",
+            paddingRight: 0,
+            paddingTop: "2%",
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "600",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Item Information
+          </Text>
+        </View>
+        <View
+          style={{
+            width: "92%",
+            height: "22%",
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginTop: "2%",
+            marginBottom: "2%",
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            backgroundColor: "#ffffff",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        />
+        <View
+          style={{
+            width: "96%",
+            height: "1%",
+            marginLeft: "4%",
+            marginRight: 0,
+            marginTop: "2%",
+            marginBottom: 0,
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "600",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Item Description
+          </Text>
+        </View>
+        <View
+          style={{
+            width: "92%",
+            height: "18%",
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginTop: "2%",
+            marginBottom: "2%",
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            backgroundColor: "#ffffff",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        />
+        <View
+          style={{
+            width: "96%",
+            height: "1%",
+            marginLeft: "4%",
+            marginRight: 0,
+            marginTop: "2%",
+            marginBottom: 0,
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#fd6f80",
+              fontStyle: "normal",
+              fontWeight: "600",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          >
+            Sold By
+          </Text>
+        </View>
+        <View
+          style={{
+            width: "92%",
+            height: "4%",
+            marginLeft: "4%",
+            marginRight: "4%",
+            marginTop: "1%",
+            marginBottom: "1%",
+            paddingLeft: 0,
+            paddingRight: 0,
+            paddingTop: 0,
+            paddingBottom: 0,
+            overflow: "visible",
+            textAlign: "left",
+            verticalAlign: "baseline",
+            fontSize: 20,
+            color: "#000000",
+            backgroundColor: "#ffffff",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            flexDirection: "column",
+            flexWrap: "wrap",
+            justifyContent: "flex-start",
+            alignItems: "stretch",
+            alignContent: "stretch",
+            borderColor: "#000000",
+            borderStyle: "solid",
+            borderWidth: 0,
+            borderLeftWidth: 0,
+            borderRightWidth: 0,
+            borderTopWidth: 0,
+            borderBottomWidth: 0,
+            borderRadius: 0,
+            backgroundSize: "auto"
+          }}
+        />
+        <View
+          style={{
+            width: "100%",
+            height: "15%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
@@ -96,625 +710,9 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/81hug9CVnnL._AC_SL1500__tEUytBi.jpg"
-            }}
-            style={{
-              width: "100%",
-              height: "17%",
-              marginLeft: 0,
-              marginRight: 0,
-              marginTop: 0,
-              marginBottom: 0,
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "cover"
-            }}
-          >
-            <Button
-              style={{
-                width: "20%",
-                height: "100%",
-                marginLeft: "2%",
-                marginRight: 0,
-                marginTop: "02%",
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "center",
-                verticalAlign: "baseline",
-                fontSize: 16,
-                color: "#ffffff",
-                backgroundColor: "#0000ff",
-                fontStyle: "normal",
-                fontWeight: "normal",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0
-              }}
-              onPress={() => alert("Pressed!")}
-            >
-              Back
-            </Button>
-          </ImageBackground>
-          <View
-            style={{
-              width: "100%",
-              height: "5%",
-              marginLeft: 0,
-              marginRight: 0,
-              marginTop: 0,
-              marginBottom: 0,
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          >
-            <View
-              style={{
-                width: "100%",
-                height: "50%",
-                marginLeft: 0,
-                marginRight: 0,
-                marginTop: 0,
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "left",
-                verticalAlign: "baseline",
-                fontSize: 20,
-                color: "#000000",
-                backgroundColor: "#ffffff",
-                fontStyle: "normal",
-                fontWeight: "normal",
-                flexDirection: "row",
-                flexWrap: "wrap",
-                justifyContent: "flex-start",
-                alignItems: "stretch",
-                alignContent: "stretch",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0,
-                backgroundSize: "auto"
-              }}
-            >
-              <View
-                style={{
-                  width: "68%",
-                  height: "97%",
-                  marginLeft: "2%",
-                  marginRight: 0,
-                  marginTop: "3%",
-                  marginBottom: 0,
-                  paddingLeft: 0,
-                  paddingRight: 0,
-                  paddingTop: 0,
-                  paddingBottom: 0,
-                  overflow: "visible",
-                  textAlign: "left",
-                  verticalAlign: "baseline",
-                  fontSize: 20,
-                  color: "#000000",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
-                  flexDirection: "column",
-                  flexWrap: "wrap",
-                  justifyContent: "flex-start",
-                  alignItems: "stretch",
-                  alignContent: "stretch",
-                  borderColor: "#000000",
-                  borderStyle: "solid",
-                  borderWidth: 0,
-                  borderLeftWidth: 0,
-                  borderRightWidth: 0,
-                  borderTopWidth: 0,
-                  borderBottomWidth: 0,
-                  borderRadius: 0,
-                  backgroundSize: "auto"
-                }}
-              >
-                <Text
-                  style={{
-                    marginLeft: 0,
-                    marginRight: 0,
-                    marginTop: 0,
-                    marginBottom: 0,
-                    paddingLeft: 0,
-                    paddingRight: 0,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    overflow: "visible",
-                    textAlign: "left",
-                    verticalAlign: "baseline",
-                    fontSize: 17,
-                    color: "#5d5b5d",
-                    fontStyle: "normal",
-                    fontWeight: "600",
-                    borderColor: "#000000",
-                    borderStyle: "solid",
-                    borderWidth: 0,
-                    borderLeftWidth: 0,
-                    borderRightWidth: 0,
-                    borderTopWidth: 0,
-                    borderBottomWidth: 0,
-                    borderRadius: 0
-                  }}
-                >
-                  Backyard patio set with four chairs and table
-                </Text>
-              </View>
-              <View
-                style={{
-                  width: "30%",
-                  height: "097%",
-                  marginLeft: 0,
-                  marginRight: 0,
-                  marginTop: "3%",
-                  marginBottom: 0,
-                  paddingLeft: 0,
-                  paddingRight: 0,
-                  paddingTop: 0,
-                  paddingBottom: 0,
-                  overflow: "visible",
-                  textAlign: "left",
-                  verticalAlign: "baseline",
-                  fontSize: 20,
-                  color: "#000000",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
-                  flexDirection: "column",
-                  flexWrap: "wrap",
-                  justifyContent: "flex-start",
-                  alignItems: "stretch",
-                  alignContent: "stretch",
-                  borderColor: "#000000",
-                  borderStyle: "solid",
-                  borderWidth: 0,
-                  borderLeftWidth: 0,
-                  borderRightWidth: 0,
-                  borderTopWidth: 0,
-                  borderBottomWidth: 0,
-                  borderRadius: 0,
-                  backgroundSize: "auto"
-                }}
-              >
-                <Text
-                  style={{
-                    marginLeft: 0,
-                    marginRight: 0,
-                    marginTop: 0,
-                    marginBottom: 0,
-                    paddingLeft: 0,
-                    paddingRight: 0,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    overflow: "visible",
-                    textAlign: "center",
-                    verticalAlign: "baseline",
-                    fontSize: 32,
-                    color: "#fd6f80",
-                    fontStyle: "normal",
-                    fontWeight: "600",
-                    borderColor: "#000000",
-                    borderStyle: "solid",
-                    borderWidth: 0,
-                    borderLeftWidth: 0,
-                    borderRightWidth: 0,
-                    borderTopWidth: 0,
-                    borderBottomWidth: 0,
-                    borderRadius: 0
-                  }}
-                >
-                  $220
-                </Text>
-              </View>
-            </View>
-          </View>
-          <View
-            style={{
-              width: "96%",
-              height: "1%",
-              marginLeft: 0,
-              marginRight: 0,
-              marginTop: 0,
-              marginBottom: 0,
-              paddingLeft: "4%",
-              paddingRight: 0,
-              paddingTop: "2%",
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          >
-            <Text
-              style={{
-                marginLeft: 0,
-                marginRight: 0,
-                marginTop: 0,
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "left",
-                verticalAlign: "baseline",
-                fontSize: 20,
-                color: "#fd6f80",
-                fontStyle: "normal",
-                fontWeight: "600",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0
-              }}
-            >
-              Item Information
-            </Text>
-          </View>
-          <View
-            style={{
-              width: "92%",
-              height: "22%",
-              marginLeft: "4%",
-              marginRight: "4%",
-              marginTop: "2%",
-              marginBottom: "2%",
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          />
-          <View
-            style={{
-              width: "96%",
-              height: "1%",
-              marginLeft: "4%",
-              marginRight: 0,
-              marginTop: "2%",
-              marginBottom: 0,
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          >
-            <Text
-              style={{
-                marginLeft: 0,
-                marginRight: 0,
-                marginTop: 0,
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "left",
-                verticalAlign: "baseline",
-                fontSize: 20,
-                color: "#fd6f80",
-                fontStyle: "normal",
-                fontWeight: "600",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0
-              }}
-            >
-              Item Description
-            </Text>
-          </View>
-          <View
-            style={{
-              width: "92%",
-              height: "18%",
-              marginLeft: "4%",
-              marginRight: "4%",
-              marginTop: "2%",
-              marginBottom: "2%",
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          />
-          <View
-            style={{
-              width: "96%",
-              height: "1%",
-              marginLeft: "4%",
-              marginRight: 0,
-              marginTop: "2%",
-              marginBottom: 0,
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          >
-            <Text
-              style={{
-                marginLeft: 0,
-                marginRight: 0,
-                marginTop: 0,
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "left",
-                verticalAlign: "baseline",
-                fontSize: 20,
-                color: "#fd6f80",
-                fontStyle: "normal",
-                fontWeight: "600",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0
-              }}
-            >
-              Sold By
-            </Text>
-          </View>
-          <View
-            style={{
-              width: "92%",
-              height: "4%",
-              marginLeft: "4%",
-              marginRight: "4%",
-              marginTop: "1%",
-              marginBottom: "1%",
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          />
-          <View
-            style={{
-              width: "100%",
-              height: "15%",
-              marginLeft: 0,
-              marginRight: 0,
-              marginTop: 0,
-              marginBottom: 0,
-              paddingLeft: 0,
-              paddingRight: 0,
-              paddingTop: 0,
-              paddingBottom: 0,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              flexDirection: "column",
-              flexWrap: "wrap",
-              justifyContent: "flex-start",
-              alignItems: "stretch",
-              alignContent: "stretch",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0,
-              backgroundSize: "auto"
-            }}
-          />
-        </View>
+        />
       </View>
-    </ScrollView>
+    </View>
   )
 }
 
