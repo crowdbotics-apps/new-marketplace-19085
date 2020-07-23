@@ -330,7 +330,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#f4f5f9",
             fontStyle: "normal",
             fontWeight: "normal",
             flexDirection: "column",
@@ -351,8 +351,8 @@ export class _Blank extends React.Component {
         >
           <Button
             style={{
-              width: "95%",
-              marginLeft: 0,
+              width: "80%",
+              marginLeft: 50,
               marginRight: "5%",
               marginTop: 5,
               marginBottom: 5,
@@ -399,7 +399,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#f4f5f9",
             fontStyle: "normal",
             fontWeight: "normal",
             flexDirection: "column",
