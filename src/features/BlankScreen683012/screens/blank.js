@@ -182,7 +182,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#f4f5f9",
             fontStyle: "normal",
             fontWeight: "normal",
             flexDirection: "column",
@@ -200,7 +200,44 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <View
+            style={{
+              width: "90%",
+              height: "90%",
+              marginLeft: "5%",
+              marginRight: "5%",
+              marginTop: "5%",
+              marginBottom: "5%",
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              flexDirection: "column",
+              flexWrap: "wrap",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
+              alignContent: "stretch",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              backgroundSize: "auto"
+            }}
+          />
+        </View>
       </View>
     </View>
   )
