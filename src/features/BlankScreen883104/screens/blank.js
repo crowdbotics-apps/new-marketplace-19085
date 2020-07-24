@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = {}
+  state = { Toggle_153: true }
 
   render = () => (
     <View
@@ -1489,7 +1489,151 @@ export class _Blank extends React.Component {
                 borderRadius: 0,
                 backgroundSize: "auto"
               }}
-            />
+            >
+              <View
+                style={{
+                  width: "100%",
+                  height: "50%",
+                  marginLeft: 0,
+                  marginRight: 0,
+                  marginTop: 0,
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "left",
+                  verticalAlign: "baseline",
+                  fontSize: 20,
+                  color: "#000000",
+                  backgroundColor: "#ffffff",
+                  fontStyle: "normal",
+                  fontWeight: "normal",
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                  justifyContent: "flex-start",
+                  alignItems: "stretch",
+                  alignContent: "stretch",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0,
+                  backgroundSize: "auto"
+                }}
+              >
+                <View
+                  style={{
+                    width: "70%",
+                    height: "100%",
+                    marginLeft: 0,
+                    marginRight: 0,
+                    marginTop: 0,
+                    marginBottom: 0,
+                    paddingLeft: 0,
+                    paddingRight: 0,
+                    paddingTop: 0,
+                    paddingBottom: 0,
+                    overflow: "visible",
+                    textAlign: "left",
+                    verticalAlign: "baseline",
+                    fontSize: 20,
+                    color: "#000000",
+                    backgroundColor: "#ffffff",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    flexDirection: "column",
+                    flexWrap: "wrap",
+                    justifyContent: "flex-start",
+                    alignItems: "stretch",
+                    alignContent: "stretch",
+                    borderColor: "#000000",
+                    borderStyle: "solid",
+                    borderWidth: 0,
+                    borderLeftWidth: 0,
+                    borderRightWidth: 0,
+                    borderTopWidth: 0,
+                    borderBottomWidth: 0,
+                    borderRadius: 0,
+                    backgroundSize: "auto"
+                  }}
+                />
+                <View
+                  style={{
+                    width: "30%",
+                    height: "100%",
+                    marginLeft: 0,
+                    marginRight: 0,
+                    marginTop: 0,
+                    marginBottom: 0,
+                    paddingLeft: 0,
+                    paddingRight: 0,
+                    paddingTop: 0,
+                    paddingBottom: 0,
+                    overflow: "visible",
+                    textAlign: "left",
+                    verticalAlign: "baseline",
+                    fontSize: 20,
+                    color: "#000000",
+                    backgroundColor: "#ffffff",
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    flexDirection: "column",
+                    flexWrap: "wrap",
+                    justifyContent: "flex-start",
+                    alignItems: "stretch",
+                    alignContent: "stretch",
+                    borderColor: "#000000",
+                    borderStyle: "solid",
+                    borderWidth: 0,
+                    borderLeftWidth: 0,
+                    borderRightWidth: 0,
+                    borderTopWidth: 0,
+                    borderBottomWidth: 0,
+                    borderRadius: 0,
+                    backgroundSize: "auto"
+                  }}
+                >
+                  <Toggle
+                    text=""
+                    activeColor="#fd6f80"
+                    inactiveColor="#f4f5f9"
+                    disabled={false}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: 5,
+                      marginBottom: 5,
+                      paddingLeft: "20%",
+                      paddingRight: 5,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                    checked={this.state.Toggle_153}
+                    onChange={nextChecked =>
+                      this.setState({ Toggle_153: nextChecked })
+                    }
+                  />
+                </View>
+              </View>
+            </View>
             <View
               style={{
                 width: "100%",
