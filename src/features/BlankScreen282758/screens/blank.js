@@ -103,7 +103,7 @@ export class _Blank extends React.Component {
           }}
           style={{
             width: "100%",
-            height: "13.770000000000001%",
+            height: "12.393000000000002%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
@@ -172,7 +172,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "100%",
-            height: "4.05%",
+            height: "3.645%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
@@ -376,7 +376,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "96%",
-            height: "0.81%",
+            height: "0.7290000000000002%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
@@ -441,7 +441,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "92%",
-            height: "17.82%",
+            height: "16.038%",
             marginLeft: "4%",
             marginRight: "4%",
             marginTop: "2%",
@@ -1467,7 +1467,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "96%",
-            height: "0.81%",
+            height: "0.7290000000000002%",
             marginLeft: "4%",
             marginRight: 0,
             marginTop: "2%",
@@ -1532,7 +1532,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "92%",
-            height: "14.58%",
+            height: "13.122000000000002%",
             marginLeft: "4%",
             marginRight: "4%",
             marginTop: "2%",
@@ -1604,7 +1604,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "96%",
-            height: "0.81%",
+            height: "0.7290000000000002%",
             marginLeft: "4%",
             marginRight: 0,
             marginTop: "2%",
@@ -1669,12 +1669,12 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "92%",
-            height: "3.24%",
+            height: "2.916000000000001%",
             marginLeft: "4%",
             marginRight: "4%",
             marginTop: "1%",
             marginBottom: "1%",
-            paddingLeft: 0,
+            paddingLeft: "4%",
             paddingRight: 0,
             paddingTop: 0,
             paddingBottom: 0,
@@ -1701,11 +1701,188 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <View
+            style={{
+              width: "100%",
+              height: "50%",
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 20,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "flex-start",
+              alignItems: "stretch",
+              alignContent: "stretch",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              backgroundSize: "auto"
+            }}
+          >
+            <View
+              style={{
+                width: "20%",
+                height: "100%",
+                marginLeft: 0,
+                marginRight: 0,
+                marginTop: 0,
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            >
+              <Image
+                resizeMode="contain"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/woman-icon-plain-in-circle_EZUwZ0J.png"
+                }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  marginLeft: "0%",
+                  marginRight: 0,
+                  marginTop: 0,
+                  marginBottom: 0,
+                  paddingLeft: 0,
+                  paddingRight: 0,
+                  paddingTop: 0,
+                  paddingBottom: 0,
+                  overflow: "visible",
+                  textAlign: "left",
+                  verticalAlign: "baseline",
+                  borderColor: "#000000",
+                  borderStyle: "solid",
+                  borderWidth: 0,
+                  borderLeftWidth: 0,
+                  borderRightWidth: 0,
+                  borderTopWidth: 0,
+                  borderBottomWidth: 0,
+                  borderRadius: 0
+                }}
+              />
+            </View>
+            <View
+              style={{
+                width: "65%",
+                height: "100%",
+                marginLeft: 0,
+                marginRight: 0,
+                marginTop: 0,
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            />
+            <View
+              style={{
+                width: "15%",
+                height: "100%",
+                marginLeft: 0,
+                marginRight: 0,
+                marginTop: 0,
+                marginBottom: 0,
+                paddingLeft: 0,
+                paddingRight: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                overflow: "visible",
+                textAlign: "left",
+                verticalAlign: "baseline",
+                fontSize: 20,
+                color: "#000000",
+                backgroundColor: "#ffffff",
+                fontStyle: "normal",
+                fontWeight: "normal",
+                flexDirection: "column",
+                flexWrap: "wrap",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                alignContent: "stretch",
+                borderColor: "#000000",
+                borderStyle: "solid",
+                borderWidth: 0,
+                borderLeftWidth: 0,
+                borderRightWidth: 0,
+                borderTopWidth: 0,
+                borderBottomWidth: 0,
+                borderRadius: 0,
+                backgroundSize: "auto"
+              }}
+            />
+          </View>
+        </View>
         <View
           style={{
             width: "100%",
-            height: "12.15%",
+            height: "10.935%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
