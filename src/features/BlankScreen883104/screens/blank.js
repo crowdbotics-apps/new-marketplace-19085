@@ -1141,7 +1141,40 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Button
+                    style={{
+                      width: "100%",
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: 5,
+                      marginBottom: 5,
+                      paddingLeft: 5,
+                      paddingRight: 5,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      overflow: "visible",
+                      textAlign: "center",
+                      verticalAlign: "baseline",
+                      fontSize: 18,
+                      color: "#000000",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "normal",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                    onPress={() => alert("Pressed!")}
+                  >
+                    Next
+                  </Button>
+                </View>
               </View>
             </View>
             <View
@@ -1251,7 +1284,38 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: "5%",
+                      marginRight: 0,
+                      marginTop: 5,
+                      marginBottom: 5,
+                      paddingLeft: 5,
+                      paddingRight: 5,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      overflow: "visible",
+                      textAlign: "left",
+                      verticalAlign: "baseline",
+                      fontSize: 18,
+                      color: "#000000",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "normal",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    Track Order
+                  </Text>
+                </View>
                 <View
                   style={{
                     width: "20%",
@@ -1287,7 +1351,40 @@ export class _Blank extends React.Component {
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Button
+                    style={{
+                      width: "100%",
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: 5,
+                      marginBottom: 5,
+                      paddingLeft: 5,
+                      paddingRight: 5,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      overflow: "visible",
+                      textAlign: "center",
+                      verticalAlign: "baseline",
+                      fontSize: 18,
+                      color: "#000000",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "normal",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                    onPress={() => alert("Pressed!")}
+                  >
+                    Next
+                  </Button>
+                </View>
               </View>
             </View>
             <View
