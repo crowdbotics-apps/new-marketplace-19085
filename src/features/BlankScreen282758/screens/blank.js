@@ -2050,10 +2050,14 @@ export class _Blank extends React.Component {
               }}
             >
               <Image
-                resizeMode="cover"
+                resizeMode="contain"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/front.png"
+                }}
                 style={{
                   width: "100%",
-                  height: 200,
+                  height: "100%",
                   marginLeft: 0,
                   marginRight: 0,
                   marginTop: 0,
