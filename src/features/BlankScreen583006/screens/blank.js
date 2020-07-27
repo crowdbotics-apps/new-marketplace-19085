@@ -582,7 +582,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "100%",
-            height: "0.9830399999999999%",
+            height: 0,
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
@@ -968,7 +968,7 @@ export class _Blank extends React.Component {
         <View
           style={{
             width: "100%",
-            height: "4.9152%",
+            height: "0%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
