@@ -839,9 +839,9 @@ export class _Blank extends React.Component {
                       paddingTop: 5,
                       paddingBottom: 5,
                       overflow: "visible",
-                      textAlign: "left",
+                      textAlign: "center",
                       verticalAlign: "baseline",
-                      fontSize: 20,
+                      fontSize: 16,
                       color: "#000000",
                       backgroundColor: "#ffffff",
                       fontStyle: "normal",
@@ -884,17 +884,47 @@ export class _Blank extends React.Component {
                     justifyContent: "flex-start",
                     alignItems: "stretch",
                     alignContent: "stretch",
-                    borderColor: "#000000",
+                    borderColor: "#fd6f80",
                     borderStyle: "solid",
-                    borderWidth: 0,
                     borderLeftWidth: 0,
                     borderRightWidth: 0,
                     borderTopWidth: 0,
-                    borderBottomWidth: 0,
+                    borderBottomWidth: 8,
                     borderRadius: 0,
                     backgroundSize: "auto"
                   }}
-                />
+                >
+                  <Text
+                    style={{
+                      marginLeft: 0,
+                      marginRight: 0,
+                      marginTop: 5,
+                      marginBottom: 5,
+                      paddingLeft: 5,
+                      paddingRight: 5,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      overflow: "visible",
+                      textAlign: "center",
+                      verticalAlign: "baseline",
+                      fontSize: 16,
+                      color: "#000000",
+                      backgroundColor: "#ffffff",
+                      fontStyle: "normal",
+                      fontWeight: "normal",
+                      borderColor: "#000000",
+                      borderStyle: "solid",
+                      borderWidth: 0,
+                      borderLeftWidth: 0,
+                      borderRightWidth: 0,
+                      borderTopWidth: 0,
+                      borderBottomWidth: 0,
+                      borderRadius: 0
+                    }}
+                  >
+                    My Listings
+                  </Text>
+                </View>
               </View>
             </View>
             <View
