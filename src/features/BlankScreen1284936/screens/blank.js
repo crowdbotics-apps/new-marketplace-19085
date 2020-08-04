@@ -63,7 +63,7 @@ export class _Blank extends React.Component {
       <View
         style={{
           width: "100%",
-          height: "50%",
+          height: "90%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -201,7 +201,7 @@ export class _Blank extends React.Component {
             style={{
               marginLeft: 0,
               marginRight: 0,
-              marginTop: "05%",
+              marginTop: "6%",
               marginBottom: 5,
               paddingLeft: 5,
               paddingRight: 5,
@@ -210,7 +210,7 @@ export class _Blank extends React.Component {
               overflow: "visible",
               textAlign: "center",
               verticalAlign: "baseline",
-              fontSize: 15,
+              fontSize: 18,
               color: "#000000",
               backgroundColor: "#f4f5f9",
               fontFamily: "Helvetica-Bold",
@@ -235,7 +235,7 @@ export class _Blank extends React.Component {
               marginLeft: 0,
               marginRight: 0,
               marginTop: 5,
-              marginBottom: 5,
+              marginBottom: 30,
               paddingLeft: 5,
               paddingRight: 5,
               paddingTop: 5,
@@ -243,7 +243,7 @@ export class _Blank extends React.Component {
               overflow: "visible",
               textAlign: "center",
               verticalAlign: "baseline",
-              fontSize: 12,
+              fontSize: 14,
               color: "#6b6b6b",
               backgroundColor: "#f4f5f9",
               fontFamily: "Helvetica-Regular",
@@ -257,7 +257,7 @@ export class _Blank extends React.Component {
               borderRadius: 0,
               textDecorationLine: "none",
               textTransform: "none",
-              lineHeight: 12,
+              lineHeight: 18,
               letterSpacing: 0
             }}
           >
@@ -270,7 +270,7 @@ export class _Blank extends React.Component {
               marginLeft: 0,
               marginRight: 0,
               marginTop: "10%",
-              marginBottom: 5,
+              marginBottom: 0,
               paddingLeft: 5,
               paddingRight: 5,
               paddingTop: 5,
@@ -296,6 +296,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
             onPress={() => alert("Pressed!")}
+            title = "CONTINUE"
           >
             CONTINUE
           </Button>
