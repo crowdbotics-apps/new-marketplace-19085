@@ -1215,7 +1215,252 @@ export class _Blank extends React.Component {
                             borderRadius: 0,
                             backgroundSize: "auto"
                           }}
-                        />
+                        >
+                          <View
+                            style={{
+                              width: "100%",
+                              height: "50%",
+                              marginLeft: 0,
+                              marginRight: 0,
+                              marginTop: 0,
+                              marginBottom: 0,
+                              paddingLeft: 0,
+                              paddingRight: 0,
+                              paddingTop: 0,
+                              paddingBottom: 0,
+                              overflow: "visible",
+                              textAlign: "left",
+                              verticalAlign: "baseline",
+                              fontSize: 12,
+                              color: "#000000",
+                              backgroundColor: "#ffffff",
+                              fontFamily: "Roboto-Regular",
+                              flexDirection: "column",
+                              flexWrap: "wrap",
+                              justifyContent: "flex-start",
+                              alignItems: "stretch",
+                              alignContent: "stretch",
+                              borderColor: "#000000",
+                              borderStyle: "solid",
+                              borderWidth: 0,
+                              borderLeftWidth: 0,
+                              borderRightWidth: 0,
+                              borderTopWidth: 0,
+                              borderBottomWidth: 0,
+                              borderRadius: 0,
+                              backgroundSize: "auto"
+                            }}
+                          >
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "15%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: -5,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 2,
+                                  overflow: "visible",
+                                  textAlign: "right",
+                                  verticalAlign: "baseline",
+                                  fontSize: 10,
+                                  color: "#000000",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                Jan 7, 2020
+                              </Text>
+                            </View>
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "15%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: -6,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 5,
+                                  overflow: "visible",
+                                  textAlign: "left",
+                                  verticalAlign: "baseline",
+                                  fontSize: 12,
+                                  color: "#fd6f80",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                Clothing
+                              </Text>
+                            </View>
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "40%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            />
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "30%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            />
+                          </View>
+                        </View>
                       </View>
                     </View>
                     <View
@@ -1389,7 +1634,253 @@ export class _Blank extends React.Component {
                             borderRadius: 0,
                             backgroundSize: "auto"
                           }}
-                        />
+                        >
+                          <View
+                            style={{
+                              width: "100%",
+                              height: "50%",
+                              marginLeft: 0,
+                              marginRight: 0,
+                              marginTop: 0,
+                              marginBottom: 0,
+                              paddingLeft: 0,
+                              paddingRight: 0,
+                              paddingTop: 0,
+                              paddingBottom: 0,
+                              overflow: "visible",
+                              textAlign: "left",
+                              verticalAlign: "baseline",
+                              fontSize: 12,
+                              color: "#000000",
+                              backgroundColor: "#ffffff",
+                              fontFamily: "Roboto-Regular",
+                              flexDirection: "column",
+                              flexWrap: "wrap",
+                              justifyContent: "flex-start",
+                              alignItems: "stretch",
+                              alignContent: "stretch",
+                              borderColor: "#000000",
+                              borderStyle: "solid",
+                              borderWidth: 0,
+                              borderLeftWidth: 0,
+                              borderRightWidth: 0,
+                              borderTopWidth: 0,
+                              borderBottomWidth: 0,
+                              borderRadius: 0,
+                              backgroundSize: "auto"
+                            }}
+                          >
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "15%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            >
+                              <Text
+                                style={{
+                                  height: 0,
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: -5,
+                                  marginBottom: "0%",
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: "0%",
+                                  overflow: "visible",
+                                  textAlign: "right",
+                                  verticalAlign: "baseline",
+                                  fontSize: 10,
+                                  color: "#000000",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                Dec 16, 2019
+                              </Text>
+                            </View>
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "15%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: -5,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 5,
+                                  overflow: "visible",
+                                  textAlign: "left",
+                                  verticalAlign: "baseline",
+                                  fontSize: 12,
+                                  color: "#fd6f80",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                Arts and Crafts
+                              </Text>
+                            </View>
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "40%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            />
+                            <View
+                              style={{
+                                width: "100%",
+                                height: "30%",
+                                marginLeft: 0,
+                                marginRight: 0,
+                                marginTop: 0,
+                                marginBottom: 0,
+                                paddingLeft: 0,
+                                paddingRight: 0,
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                                overflow: "visible",
+                                textAlign: "left",
+                                verticalAlign: "baseline",
+                                fontSize: 12,
+                                color: "#000000",
+                                backgroundColor: "#ffffff",
+                                fontFamily: "Roboto-Regular",
+                                flexDirection: "column",
+                                flexWrap: "wrap",
+                                justifyContent: "flex-start",
+                                alignItems: "stretch",
+                                alignContent: "stretch",
+                                borderColor: "#000000",
+                                borderStyle: "solid",
+                                borderWidth: 0,
+                                borderLeftWidth: 0,
+                                borderRightWidth: 0,
+                                borderTopWidth: 0,
+                                borderBottomWidth: 0,
+                                borderRadius: 0,
+                                backgroundSize: "auto"
+                              }}
+                            />
+                          </View>
+                        </View>
                       </View>
                     </View>
                   </View>
