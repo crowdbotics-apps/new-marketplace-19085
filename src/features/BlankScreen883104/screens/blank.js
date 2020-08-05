@@ -164,7 +164,106 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 12,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 8,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 25,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Bold",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 2,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 20,
+              letterSpacing: 0
+            }}
+          >
+            Settings
+          </Text>
+          <Text
+            style={{
+              marginLeft: 4,
+              marginRight: 0,
+              marginTop: 5,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 17,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Bold",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+          >
+            Account
+          </Text>
+          <Text
+            style={{
+              marginLeft: 5,
+              marginRight: 0,
+              marginTop: 5,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 15,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Regular",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+          >
+            Profile Settings
+          </Text>
+        </View>
       </View>
     </View>
   )
