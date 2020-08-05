@@ -1423,7 +1423,41 @@ export class _Blank extends React.Component {
                                 borderRadius: 0,
                                 backgroundSize: "auto"
                               }}
-                            />
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: 5,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 5,
+                                  overflow: "visible",
+                                  textAlign: "left",
+                                  verticalAlign: "baseline",
+                                  fontSize: 12,
+                                  color: "#000000",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                Teal sweatshirt with moon &amp; purple accents
+                              </Text>
+                            </View>
                             <View
                               style={{
                                 width: "100%",
@@ -1458,7 +1492,41 @@ export class _Blank extends React.Component {
                                 borderRadius: 0,
                                 backgroundSize: "auto"
                               }}
-                            />
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: 5,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 5,
+                                  overflow: "visible",
+                                  textAlign: "left",
+                                  verticalAlign: "baseline",
+                                  fontSize: 12,
+                                  color: "#000000",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                $45
+                              </Text>
+                            </View>
                           </View>
                         </View>
                       </View>
@@ -1843,7 +1911,41 @@ export class _Blank extends React.Component {
                                 borderRadius: 0,
                                 backgroundSize: "auto"
                               }}
-                            />
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: 5,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 5,
+                                  overflow: "visible",
+                                  textAlign: "left",
+                                  verticalAlign: "baseline",
+                                  fontSize: 12,
+                                  color: "#000000",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                50 x 15mm Star Beads Multicolor
+                              </Text>
+                            </View>
                             <View
                               style={{
                                 width: "100%",
@@ -1878,7 +1980,41 @@ export class _Blank extends React.Component {
                                 borderRadius: 0,
                                 backgroundSize: "auto"
                               }}
-                            />
+                            >
+                              <Text
+                                style={{
+                                  marginLeft: 0,
+                                  marginRight: 0,
+                                  marginTop: 5,
+                                  marginBottom: 5,
+                                  paddingLeft: 5,
+                                  paddingRight: 5,
+                                  paddingTop: 5,
+                                  paddingBottom: 5,
+                                  overflow: "visible",
+                                  textAlign: "left",
+                                  verticalAlign: "baseline",
+                                  fontSize: 12,
+                                  color: "#000000",
+                                  backgroundColor: "#ffffff",
+                                  fontFamily: "Roboto-Regular",
+                                  borderColor: "#000000",
+                                  borderStyle: "solid",
+                                  borderWidth: 0,
+                                  borderLeftWidth: 0,
+                                  borderRightWidth: 0,
+                                  borderTopWidth: 0,
+                                  borderBottomWidth: 0,
+                                  borderRadius: 0,
+                                  textDecorationLine: "none",
+                                  textTransform: "none",
+                                  lineHeight: 12,
+                                  letterSpacing: 0
+                                }}
+                              >
+                                $25
+                              </Text>
+                            </View>
                           </View>
                         </View>
                       </View>
