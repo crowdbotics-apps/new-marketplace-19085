@@ -199,7 +199,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              marginLeft: 4,
+              marginLeft: 8,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
@@ -232,7 +232,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              marginLeft: 5,
+              marginLeft: 15,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
@@ -265,7 +265,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              marginLeft: 5,
+              marginLeft: 15,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
@@ -298,7 +298,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              marginLeft: 5,
+              marginLeft: 15,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
@@ -331,7 +331,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              marginLeft: 5,
+              marginLeft: 15,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
@@ -364,7 +364,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              marginLeft: 5,
+              marginLeft: 15,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
@@ -394,6 +394,136 @@ export class _Blank extends React.Component {
             }}
           >
             Track Order
+          </Text>
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 6,
+              marginBottom: 5,
+              paddingLeft: 12,
+              paddingRight: 5,
+              paddingTop: 10,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 17,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Bold",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 1,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+          >
+            Notifications
+          </Text>
+          <Text
+            style={{
+              marginLeft: 15,
+              marginRight: 0,
+              marginTop: 5,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 15,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Regular",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+          >
+            Allow Notifications
+          </Text>
+          <Text
+            style={{
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: 6,
+              marginBottom: 5,
+              paddingLeft: 12,
+              paddingRight: 5,
+              paddingTop: 10,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 17,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Bold",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 1,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+          >
+            File a Refund
+          </Text>
+          <Text
+            style={{
+              marginLeft: 15,
+              marginRight: 0,
+              marginTop: 5,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 15,
+              color: "#000000",
+              backgroundColor: "#ffffff",
+              fontFamily: "Helvetica-Regular",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+          >
+            Enter Reason for Refund
           </Text>
         </View>
       </View>
