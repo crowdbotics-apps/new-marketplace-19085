@@ -275,7 +275,7 @@ export class _Blank extends React.Component {
                 style={{
                   marginLeft: 0,
                   marginRight: 0,
-                  marginTop: 5,
+                  marginTop: 20,
                   marginBottom: 5,
                   paddingLeft: 5,
                   paddingRight: 5,
@@ -284,7 +284,7 @@ export class _Blank extends React.Component {
                   overflow: "visible",
                   textAlign: "center",
                   verticalAlign: "baseline",
-                  fontSize: 20,
+                  fontSize: 25,
                   color: "#fd6f80",
                   backgroundColor: "#ffffff",
                   fontFamily: "Roboto-Bold",
@@ -308,19 +308,19 @@ export class _Blank extends React.Component {
                 style={{
                   marginLeft: 0,
                   marginRight: 0,
-                  marginTop: 5,
+                  marginTop: 10,
                   marginBottom: 5,
                   paddingLeft: 5,
                   paddingRight: 5,
                   paddingTop: 5,
                   paddingBottom: 5,
                   overflow: "visible",
-                  textAlign: "left",
+                  textAlign: "center",
                   verticalAlign: "baseline",
-                  fontSize: 12,
+                  fontSize: 15,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontFamily: "Roboto-Regular",
+                  fontFamily: "Roboto-BoldItalic",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
@@ -335,7 +335,7 @@ export class _Blank extends React.Component {
                   letterSpacing: 0
                 }}
               >
-                Sample text content
+                You Purchased:
               </Text>
             </View>
             <View
