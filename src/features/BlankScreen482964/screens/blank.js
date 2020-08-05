@@ -77,7 +77,7 @@ export class _Blank extends React.Component {
           verticalAlign: "baseline",
           fontSize: 12,
           color: "#000000",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f4f5f9",
           fontFamily: "Roboto-Regular",
           flexDirection: "column",
           flexWrap: "wrap",
@@ -168,13 +168,13 @@ export class _Blank extends React.Component {
         </View>
         <View
           style={{
-            width: "100%",
-            height: "60%",
-            marginLeft: 0,
-            marginRight: 0,
-            marginTop: 0,
-            marginBottom: 0,
-            paddingLeft: 0,
+            width: "80%",
+            height: "40%",
+            marginLeft: "10%",
+            marginRight: "10%",
+            marginTop: "10%",
+            marginBottom: "10%",
+            paddingLeft: "0%",
             paddingRight: 0,
             paddingTop: 0,
             paddingBottom: 0,
@@ -218,7 +218,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 12,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#f4f5f9",
             fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
@@ -235,7 +235,43 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Button
+            style={{
+              width: "80%",
+              marginLeft: "10%",
+              marginRight: 0,
+              marginTop: "15%",
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 15,
+              paddingBottom: 15,
+              overflow: "visible",
+              textAlign: "center",
+              verticalAlign: "baseline",
+              fontSize: 15,
+              color: "#ffffff",
+              backgroundColor: "#fd6f80",
+              fontFamily: "Roboto-Regular",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 15,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+            onPress={() => alert("Pressed!")}
+          >
+            Proceed to Checkout
+          </Button>
+        </View>
       </View>
     </View>
   )
