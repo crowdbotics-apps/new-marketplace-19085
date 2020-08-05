@@ -224,7 +224,7 @@ export class _Blank extends React.Component {
                   borderTopWidth: 0,
                   borderBottomWidth: 0,
                   borderRadius: 0,
-                  fontFamily: "Roboto-Regular"
+                  fontFamily: "Helvetica-Regular"
                 }}
               />
             </View>
@@ -345,7 +345,7 @@ export class _Blank extends React.Component {
                       verticalAlign: "baseline",
                       fontSize: 20,
                       color: "#000000",
-                      fontFamily: "Roboto-Regular",
+                      fontFamily: "Helvetica-Regular",
                       borderColor: "#000000",
                       borderStyle: "solid",
                       borderWidth: 0,
@@ -478,7 +478,7 @@ export class _Blank extends React.Component {
                           fontSize: 16,
                           color: "#ffffff",
                           backgroundColor: "#fd6f80",
-                          fontFamily: "Roboto-Regular",
+                          fontFamily: "Helvetica-Regular",
                           borderColor: "#000000",
                           borderStyle: "solid",
                           borderWidth: 0,
@@ -555,7 +555,7 @@ export class _Blank extends React.Component {
                           fontSize: 19,
                           color: "#fd6f80",
                           backgroundColor: "#ffffff",
-                          fontFamily: "Roboto-Regular"
+                          fontFamily: "Helvetica-Regular"
                         }}
                       />
                     </View>
@@ -616,7 +616,7 @@ export class _Blank extends React.Component {
               fontSize: 10,
               color: "#000000",
               backgroundColor: "#f4f5f9",
-              fontFamily: "Roboto-Regular",
+              fontFamily: "Helvetica-Regular",
               borderColor: "#000000",
               borderStyle: "solid",
               borderWidth: 0,
@@ -824,7 +824,7 @@ export class _Blank extends React.Component {
                       fontSize: 16,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontFamily: "Roboto-Regular",
+                      fontFamily: "Helvetica-Regular",
                       borderColor: "#000000",
                       borderStyle: "solid",
                       borderWidth: 0,
@@ -888,7 +888,7 @@ export class _Blank extends React.Component {
                       fontSize: 16,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontFamily: "Roboto-Regular",
+                      fontFamily: "Helvetica-Regular",
                       borderColor: "#000000",
                       borderStyle: "solid",
                       borderWidth: 0,
@@ -1177,7 +1177,7 @@ export class _Blank extends React.Component {
                               borderTopWidth: 0,
                               borderBottomWidth: 0,
                               borderRadius: 0,
-                              fontFamily: "Roboto-Regular"
+                              fontFamily: "Helvetica-Regular"
                             }}
                           />
                         </View>
@@ -1302,7 +1302,7 @@ export class _Blank extends React.Component {
                                   fontSize: 10,
                                   color: "#000000",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Regular",
+                                  fontFamily: "Helvetica-Regular",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1371,7 +1371,7 @@ export class _Blank extends React.Component {
                                   fontSize: 12,
                                   color: "#fd6f80",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Regular",
+                                  fontFamily: "Helvetica-Regular",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1440,7 +1440,7 @@ export class _Blank extends React.Component {
                                   fontSize: 12,
                                   color: "#000000",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Regular",
+                                  fontFamily: "Helvetica-Regular",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1509,7 +1509,7 @@ export class _Blank extends React.Component {
                                   fontSize: 12,
                                   color: "#000000",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Bold",
+                                  fontFamily: "Helvetica-Bold",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1664,7 +1664,7 @@ export class _Blank extends React.Component {
                               borderTopWidth: 0,
                               borderBottomWidth: 0,
                               borderRadius: 0,
-                              fontFamily: "Roboto-Regular"
+                              fontFamily: "Helvetica-Regular"
                             }}
                           />
                         </View>
@@ -1790,7 +1790,7 @@ export class _Blank extends React.Component {
                                   fontSize: 10,
                                   color: "#000000",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Regular",
+                                  fontFamily: "Helvetica-Regular",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1859,7 +1859,7 @@ export class _Blank extends React.Component {
                                   fontSize: 12,
                                   color: "#fd6f80",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Regular",
+                                  fontFamily: "Helvetica-Regular",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1928,7 +1928,7 @@ export class _Blank extends React.Component {
                                   fontSize: 12,
                                   color: "#000000",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Regular",
+                                  fontFamily: "Helvetica-Regular",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -1997,7 +1997,7 @@ export class _Blank extends React.Component {
                                   fontSize: 12,
                                   color: "#000000",
                                   backgroundColor: "#ffffff",
-                                  fontFamily: "Roboto-Bold",
+                                  fontFamily: "Helvetica-Bold",
                                   borderColor: "#000000",
                                   borderStyle: "solid",
                                   borderWidth: 0,
@@ -2039,7 +2039,7 @@ export class _Blank extends React.Component {
                     fontSize: 12,
                     color: "#000000",
                     backgroundColor: "#ffffff",
-                    fontFamily: "Roboto-Regular",
+                    fontFamily: "Helvetica-Regular",
                     flexDirection: "column",
                     flexWrap: "wrap",
                     justifyContent: "flex-start",
@@ -2077,7 +2077,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 20,
             color: "#ffffff",
-            fontFamily: "Roboto-Regular",
+            fontFamily: "Helvetica-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
             justifyContent: "flex-start",
