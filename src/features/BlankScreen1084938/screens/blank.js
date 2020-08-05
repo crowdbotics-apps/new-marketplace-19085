@@ -1,5 +1,5 @@
 import React from "react"
-import { View, Image, ImageBackground } from "react-native"
+import { View, Image, ImageBackground, Button } from "react-native"
 import {
   withStyles,
   Text,
