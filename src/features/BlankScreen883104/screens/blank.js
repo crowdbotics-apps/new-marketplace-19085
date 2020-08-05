@@ -63,7 +63,7 @@ export class _Blank extends React.Component {
       <View
         style={{
           width: "100%",
-          height: "50%",
+          height: "100%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
@@ -210,7 +210,7 @@ export class _Blank extends React.Component {
               overflow: "visible",
               textAlign: "left",
               verticalAlign: "baseline",
-              fontSize: 17,
+              fontSize: 18,
               color: "#000000",
               backgroundColor: "#ffffff",
               fontFamily: "Helvetica-Bold",
@@ -261,7 +261,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
           >
-            Profile Settings
+            Profile Settings                                           Next
           </Text>
           <Text
             style={{
@@ -294,7 +294,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
           >
-            Change Password
+            Change Password                                      Next
           </Text>
           <Text
             style={{
@@ -327,7 +327,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
           >
-            Blocked Sellers
+            Blocked Sellers                                           Next
           </Text>
           <Text
             style={{
@@ -360,7 +360,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
           >
-            Payment Info
+            Payment Info                                               Next
           </Text>
           <Text
             style={{
@@ -393,7 +393,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
           >
-            Track Order
+            Track Order                                                  Next
           </Text>
           <Text
             style={{
@@ -403,7 +403,7 @@ export class _Blank extends React.Component {
               marginBottom: 5,
               paddingLeft: 12,
               paddingRight: 5,
-              paddingTop: 10,
+              paddingTop: 15,
               paddingBottom: 5,
               overflow: "visible",
               textAlign: "left",
@@ -458,7 +458,7 @@ export class _Blank extends React.Component {
               letterSpacing: 0
             }}
           >
-            Allow Notifications
+            Allow Notifications                                     Yes
           </Text>
           <Text
             style={{
@@ -468,7 +468,7 @@ export class _Blank extends React.Component {
               marginBottom: 5,
               paddingLeft: 12,
               paddingRight: 5,
-              paddingTop: 10,
+              paddingTop: 15,
               paddingBottom: 5,
               overflow: "visible",
               textAlign: "left",
@@ -477,7 +477,7 @@ export class _Blank extends React.Component {
               color: "#000000",
               backgroundColor: "#ffffff",
               fontFamily: "Helvetica-Bold",
-              borderColor: "#000000",
+              borderColor: "#D0D0CE",
               borderStyle: "solid",
               borderLeftWidth: 0,
               borderRightWidth: 0,
@@ -494,15 +494,15 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
-              width: "80%",
-              marginLeft: 15,
+              width: "90%",
+              marginLeft: 25,
               marginRight: 0,
               marginTop: 5,
               marginBottom: 5,
-              paddingLeft: 5,
+              paddingLeft: 65,
               paddingRight: 5,
-              paddingTop: 5,
-              paddingBottom: 5,
+              paddingTop: 20,
+              paddingBottom: 20,
               overflow: "visible",
               textAlign: "left",
               verticalAlign: "baseline",
@@ -517,7 +517,7 @@ export class _Blank extends React.Component {
               borderRightWidth: 0,
               borderTopWidth: 0,
               borderBottomWidth: 0,
-              borderRadius: 0,
+              borderRadius: 10,
               textDecorationLine: "none",
               textTransform: "none",
               lineHeight: 12,
