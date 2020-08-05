@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Input_31: "" }
+  state = {}
 
   render = () => (
     <View
@@ -43,8 +43,7 @@ export class _Blank extends React.Component {
         fontSize: 20,
         color: "#000000",
         backgroundColor: "#ffffff",
-        fontStyle: "normal",
-        fontWeight: "normal",
+        fontFamily: "Roboto-Regular",
         flexDirection: "column",
         flexWrap: "wrap",
         justifyContent: "flex-start",
@@ -79,8 +78,7 @@ export class _Blank extends React.Component {
           fontSize: 20,
           color: "#000000",
           backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
+          fontFamily: "Roboto-Regular",
           flexDirection: "column",
           flexWrap: "wrap",
           justifyContent: "flex-start",
@@ -115,8 +113,7 @@ export class _Blank extends React.Component {
             fontSize: 20,
             color: "#000000",
             backgroundColor: "#ffffff",
-            fontStyle: "normal",
-            fontWeight: "normal",
+            fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
             justifyContent: "flex-start",
@@ -151,8 +148,7 @@ export class _Blank extends React.Component {
               fontSize: 20,
               color: "#000000",
               backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
+              fontFamily: "Roboto-Regular",
               flexDirection: "row",
               flexWrap: "wrap",
               justifyContent: "flex-start",
@@ -187,8 +183,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#ffffff",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -256,8 +251,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#ffffff",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -274,28 +268,23 @@ export class _Blank extends React.Component {
                 backgroundSize: "auto"
               }}
             >
-              <Input
-                placeholder="search for items"
-                editable={true}
-                textStyle={{ fontSize: 20, color: "#000000" }}
+              <Text
                 style={{
-                  width: "100%",
                   marginLeft: 0,
                   marginRight: 0,
-                  marginTop: "6%",
+                  marginTop: 25,
                   marginBottom: 5,
                   paddingLeft: 5,
                   paddingRight: 5,
                   paddingTop: 5,
                   paddingBottom: 5,
                   overflow: "visible",
-                  textAlign: "left",
+                  textAlign: "center",
                   verticalAlign: "baseline",
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
@@ -303,20 +292,22 @@ export class _Blank extends React.Component {
                   borderRightWidth: 0,
                   borderTopWidth: 0,
                   borderBottomWidth: 0,
-                  borderRadius: 0
+                  borderRadius: 0,
+                  textDecorationLine: "none",
+                  textTransform: "none",
+                  lineHeight: 12,
+                  letterSpacing: 0
                 }}
-                value={this.state.Input_31}
-                onChangeText={nextValue =>
-                  this.setState({ Input_31: nextValue })
-                }
-              />
+              >
+                search for an item
+              </Text>
             </View>
           </View>
         </View>
         <View
           style={{
             width: "100%",
-            height: "25%",
+            height: "85%",
             marginLeft: 0,
             marginRight: 0,
             marginTop: 0,
@@ -331,8 +322,7 @@ export class _Blank extends React.Component {
             fontSize: 20,
             color: "#000000",
             backgroundColor: "#f4f5f9",
-            fontStyle: "normal",
-            fontWeight: "normal",
+            fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
             justifyContent: "flex-start",
@@ -381,43 +371,37 @@ export class _Blank extends React.Component {
           >
             see recently viewed items
           </Button>
+          <Image
+            resizeMode="cover"
+            source={{
+              uri:
+                "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/600x466.png"
+            }}
+            style={{
+              width: "100%",
+              height: "50%",
+              marginLeft: 0,
+              marginRight: 0,
+              marginTop: "60%",
+              marginBottom: 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              paddingTop: 0,
+              paddingBottom: 0,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0
+            }}
+          />
         </View>
-        <View
-          style={{
-            width: "100%",
-            height: "60%",
-            marginLeft: 0,
-            marginRight: 0,
-            marginTop: 0,
-            marginBottom: 0,
-            paddingLeft: 0,
-            paddingRight: 0,
-            paddingTop: 0,
-            paddingBottom: 0,
-            overflow: "visible",
-            textAlign: "left",
-            verticalAlign: "baseline",
-            fontSize: 20,
-            color: "#000000",
-            backgroundColor: "#f4f5f9",
-            fontStyle: "normal",
-            fontWeight: "normal",
-            flexDirection: "column",
-            flexWrap: "wrap",
-            justifyContent: "flex-start",
-            alignItems: "stretch",
-            alignContent: "stretch",
-            borderColor: "#000000",
-            borderStyle: "solid",
-            borderWidth: 0,
-            borderLeftWidth: 0,
-            borderRightWidth: 0,
-            borderTopWidth: 0,
-            borderBottomWidth: 0,
-            borderRadius: 0,
-            backgroundSize: "auto"
-          }}
-        />
       </View>
     </View>
   )
