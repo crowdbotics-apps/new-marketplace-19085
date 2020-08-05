@@ -112,7 +112,7 @@ export class _Blank extends React.Component {
             verticalAlign: "baseline",
             fontSize: 12,
             color: "#000000",
-            backgroundColor: "#ffffff",
+            backgroundColor: "#fd6f80",
             fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
@@ -129,7 +129,43 @@ export class _Blank extends React.Component {
             borderRadius: 0,
             backgroundSize: "auto"
           }}
-        />
+        >
+          <Button
+            style={{
+              width: "20%",
+              marginLeft: 10,
+              marginRight: 0,
+              marginTop: 20,
+              marginBottom: 5,
+              paddingLeft: 5,
+              paddingRight: 5,
+              paddingTop: 5,
+              paddingBottom: 5,
+              overflow: "visible",
+              textAlign: "left",
+              verticalAlign: "baseline",
+              fontSize: 12,
+              color: "#000000",
+              backgroundColor: "#FD6f80",
+              fontFamily: "Roboto-Regular",
+              borderColor: "#000000",
+              borderStyle: "solid",
+              borderWidth: 0,
+              borderLeftWidth: 0,
+              borderRightWidth: 0,
+              borderTopWidth: 0,
+              borderBottomWidth: 0,
+              borderRadius: 0,
+              textDecorationLine: "none",
+              textTransform: "none",
+              lineHeight: 12,
+              letterSpacing: 0
+            }}
+            onPress={() => alert("Pressed!")}
+          >
+            Back
+          </Button>
+        </View>
         <View
           style={{
             width: "100%",
