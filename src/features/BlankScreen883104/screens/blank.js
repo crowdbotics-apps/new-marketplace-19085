@@ -494,6 +494,7 @@ export class _Blank extends React.Component {
           </Text>
           <Text
             style={{
+              width: "80%",
               marginLeft: 15,
               marginRight: 0,
               marginTop: 5,
@@ -507,7 +508,7 @@ export class _Blank extends React.Component {
               verticalAlign: "baseline",
               fontSize: 15,
               color: "#000000",
-              backgroundColor: "#ffffff",
+              backgroundColor: "#f4f5f9",
               fontFamily: "Helvetica-Regular",
               borderColor: "#000000",
               borderStyle: "solid",
