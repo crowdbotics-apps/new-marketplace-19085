@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Input_53: "", Input_60: "", Input_71: "" }
+  state = {}
 
   render = () => (
     <View
@@ -43,8 +43,7 @@ export class _Blank extends React.Component {
         fontSize: 20,
         color: "#000000",
         backgroundColor: "#ffffff",
-        fontStyle: "normal",
-        fontWeight: "normal",
+        fontFamily: "Roboto-Regular",
         flexDirection: "column",
         flexWrap: "wrap",
         justifyContent: "flex-start",
@@ -79,8 +78,7 @@ export class _Blank extends React.Component {
           fontSize: 20,
           color: "#000000",
           backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
+          fontFamily: "Roboto-Regular",
           flexDirection: "column",
           flexWrap: "wrap",
           justifyContent: "flex-start",
@@ -115,8 +113,7 @@ export class _Blank extends React.Component {
             fontSize: 20,
             color: "#000000",
             backgroundColor: "#f4f5f9",
-            fontStyle: "normal",
-            fontWeight: "normal",
+            fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
             justifyContent: "flex-start",
@@ -151,8 +148,7 @@ export class _Blank extends React.Component {
               fontSize: 20,
               color: "#000000",
               backgroundColor: "#f4f5f9",
-              fontStyle: "normal",
-              fontWeight: "normal",
+              fontFamily: "Roboto-Regular",
               flexDirection: "row",
               flexWrap: "wrap",
               justifyContent: "flex-start",
@@ -187,8 +183,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#f4f5f9",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -232,7 +227,8 @@ export class _Blank extends React.Component {
                   borderRightWidth: 0,
                   borderTopWidth: 0,
                   borderBottomWidth: 0,
-                  borderRadius: 0
+                  borderRadius: 0,
+                  fontFamily: "Roboto-Regular"
                 }}
               />
             </View>
@@ -254,8 +250,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#f4f5f9",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -288,8 +283,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#f4f5f9",
-                  fontStyle: "normal",
-                  fontWeight: "bold",
+                  fontFamily: "Roboto-Bold",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
@@ -321,8 +315,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#f4f5f9",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -355,8 +348,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#f4f5f9",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
@@ -390,8 +382,7 @@ export class _Blank extends React.Component {
             fontSize: 20,
             color: "#000000",
             backgroundColor: "#f4f5f9",
-            fontStyle: "normal",
-            fontWeight: "normal",
+            fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
             justifyContent: "flex-start",
@@ -426,8 +417,7 @@ export class _Blank extends React.Component {
               fontSize: 20,
               color: "#000000",
               backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
+              fontFamily: "Roboto-Regular",
               flexDirection: "column",
               flexWrap: "wrap",
               justifyContent: "flex-start",
@@ -462,8 +452,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#ffffff",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -498,8 +487,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -534,8 +522,7 @@ export class _Blank extends React.Component {
                     fontSize: 20,
                     color: "#000000",
                     backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
+                    fontFamily: "Roboto-Regular",
                     flexDirection: "row",
                     flexWrap: "wrap",
                     justifyContent: "flex-start",
@@ -570,8 +557,7 @@ export class _Blank extends React.Component {
                       fontSize: 20,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontStyle: "normal",
-                      fontWeight: "normal",
+                      fontFamily: "Roboto-Regular",
                       flexDirection: "column",
                       flexWrap: "wrap",
                       justifyContent: "flex-start",
@@ -604,8 +590,7 @@ export class _Blank extends React.Component {
                         fontSize: 17,
                         color: "#000000",
                         backgroundColor: "#ffffff",
-                        fontStyle: "normal",
-                        fontWeight: "600",
+                        fontFamily: "Roboto-Regular",
                         borderColor: "#000000",
                         borderStyle: "solid",
                         borderWidth: 0,
@@ -637,8 +622,7 @@ export class _Blank extends React.Component {
                       fontSize: 20,
                       color: "#000000",
                       backgroundColor: "#ffffff",
-                      fontStyle: "normal",
-                      fontWeight: "normal",
+                      fontFamily: "Roboto-Regular",
                       flexDirection: "column",
                       flexWrap: "wrap",
                       justifyContent: "flex-start",
@@ -654,36 +638,7 @@ export class _Blank extends React.Component {
                       borderRadius: 0,
                       backgroundSize: "auto"
                     }}
-                  >
-                    <Slider
-                      value={1}
-                      minimumValue={0}
-                      maximumValue={5}
-                      step={1}
-                      disabled={false}
-                      style={{
-                        marginLeft: 0,
-                        marginRight: 0,
-                        marginTop: 5,
-                        marginBottom: 5,
-                        paddingLeft: 5,
-                        paddingRight: 5,
-                        paddingTop: 5,
-                        paddingBottom: 5,
-                        overflow: "visible",
-                        textAlign: "left",
-                        verticalAlign: "baseline",
-                        borderColor: "#fd5f80",
-                        borderStyle: "solid",
-                        borderWidth: 0,
-                        borderLeftWidth: 0,
-                        borderRightWidth: 0,
-                        borderTopWidth: 0,
-                        borderBottomWidth: 0,
-                        borderRadius: 0
-                      }}
-                    />
-                  </View>
+                  />
                 </View>
               </View>
               <View
@@ -704,8 +659,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -738,8 +692,7 @@ export class _Blank extends React.Component {
                     fontSize: 17,
                     color: "#000000",
                     backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "600",
+                    fontFamily: "Roboto-Regular",
                     borderColor: "#000000",
                     borderStyle: "solid",
                     borderWidth: 0,
@@ -771,8 +724,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -788,44 +740,7 @@ export class _Blank extends React.Component {
                   borderRadius: 0,
                   backgroundSize: "auto"
                 }}
-              >
-                <Input
-                  placeholder="Title Review Here"
-                  editable={true}
-                  textStyle={{ fontSize: 16, color: "#000000" }}
-                  style={{
-                    width: "100%",
-                    marginLeft: 10,
-                    marginRight: 0,
-                    marginTop: 5,
-                    marginBottom: 5,
-                    paddingLeft: 5,
-                    paddingRight: 5,
-                    paddingTop: 5,
-                    paddingBottom: 5,
-                    overflow: "visible",
-                    textAlign: "left",
-                    verticalAlign: "baseline",
-                    fontSize: 16,
-                    color: "#000000",
-                    backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    borderColor: "#000000",
-                    borderStyle: "solid",
-                    borderWidth: 0,
-                    borderLeftWidth: 0,
-                    borderRightWidth: 0,
-                    borderTopWidth: 0,
-                    borderBottomWidth: 0,
-                    borderRadius: 0
-                  }}
-                  value={this.state.Input_53}
-                  onChangeText={nextValue =>
-                    this.setState({ Input_53: nextValue })
-                  }
-                />
-              </View>
+              />
               <View
                 style={{
                   width: "100%",
@@ -844,8 +759,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -878,8 +792,7 @@ export class _Blank extends React.Component {
                     fontSize: 17,
                     color: "#000000",
                     backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "600",
+                    fontFamily: "Roboto-Regular",
                     borderColor: "#000000",
                     borderStyle: "solid",
                     borderWidth: 0,
@@ -911,8 +824,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "nowrap",
                   justifyContent: "flex-start",
@@ -928,44 +840,7 @@ export class _Blank extends React.Component {
                   borderRadius: 0,
                   backgroundSize: "auto"
                 }}
-              >
-                <Input
-                  placeholder="What Type of Item Did you Order"
-                  editable={true}
-                  textStyle={{ fontSize: 17, color: "#000000" }}
-                  style={{
-                    width: "100%",
-                    marginLeft: 5,
-                    marginRight: 0,
-                    marginTop: 5,
-                    marginBottom: 5,
-                    paddingLeft: 5,
-                    paddingRight: 5,
-                    paddingTop: 5,
-                    paddingBottom: 5,
-                    overflow: "visible",
-                    textAlign: "left",
-                    verticalAlign: "baseline",
-                    fontSize: 17,
-                    color: "#000000",
-                    backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    borderColor: "#000000",
-                    borderStyle: "solid",
-                    borderWidth: 0,
-                    borderLeftWidth: 0,
-                    borderRightWidth: 0,
-                    borderTopWidth: 0,
-                    borderBottomWidth: 0,
-                    borderRadius: 0
-                  }}
-                  value={this.state.Input_60}
-                  onChangeText={nextValue =>
-                    this.setState({ Input_60: nextValue })
-                  }
-                />
-              </View>
+              />
               <View
                 style={{
                   width: "100%",
@@ -984,8 +859,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -1018,8 +892,7 @@ export class _Blank extends React.Component {
                     fontSize: 17,
                     color: "#000000",
                     backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "600",
+                    fontFamily: "Roboto-Regular",
                     borderColor: "#000000",
                     borderStyle: "solid",
                     borderWidth: 0,
@@ -1051,8 +924,7 @@ export class _Blank extends React.Component {
                   fontSize: 20,
                   color: "#000000",
                   backgroundColor: "#ffffff",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   flexDirection: "column",
                   flexWrap: "wrap",
                   justifyContent: "flex-start",
@@ -1068,44 +940,7 @@ export class _Blank extends React.Component {
                   borderRadius: 0,
                   backgroundSize: "auto"
                 }}
-              >
-                <Input
-                  placeholder="Describe your experiences with the product and seller"
-                  editable={true}
-                  textStyle={{ fontSize: 11, color: "#000000" }}
-                  style={{
-                    width: "100%",
-                    marginLeft: 5,
-                    marginRight: 0,
-                    marginTop: 5,
-                    marginBottom: 5,
-                    paddingLeft: 5,
-                    paddingRight: 5,
-                    paddingTop: 5,
-                    paddingBottom: 5,
-                    overflow: "visible",
-                    textAlign: "left",
-                    verticalAlign: "baseline",
-                    fontSize: 11,
-                    color: "#000000",
-                    backgroundColor: "#ffffff",
-                    fontStyle: "normal",
-                    fontWeight: "normal",
-                    borderColor: "#000000",
-                    borderStyle: "solid",
-                    borderWidth: 0,
-                    borderLeftWidth: 0,
-                    borderRightWidth: 0,
-                    borderTopWidth: 0,
-                    borderBottomWidth: 0,
-                    borderRadius: 0
-                  }}
-                  value={this.state.Input_71}
-                  onChangeText={nextValue =>
-                    this.setState({ Input_71: nextValue })
-                  }
-                />
-              </View>
+              />
             </View>
           </View>
         </View>
@@ -1127,8 +962,7 @@ export class _Blank extends React.Component {
             fontSize: 20,
             color: "#000000",
             backgroundColor: "#ffffff",
-            fontStyle: "normal",
-            fontWeight: "normal",
+            fontFamily: "Roboto-Regular",
             flexDirection: "column",
             flexWrap: "wrap",
             justifyContent: "flex-start",
@@ -1163,8 +997,7 @@ export class _Blank extends React.Component {
               fontSize: 20,
               color: "#000000",
               backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
+              fontFamily: "Roboto-Regular",
               flexDirection: "row",
               flexWrap: "wrap",
               justifyContent: "flex-start",
@@ -1199,8 +1032,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#f4f5f9",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -1234,8 +1066,7 @@ export class _Blank extends React.Component {
                   fontSize: 18,
                   color: "#ffffff",
                   backgroundColor: "#fd6f80",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
@@ -1268,8 +1099,7 @@ export class _Blank extends React.Component {
                 fontSize: 20,
                 color: "#000000",
                 backgroundColor: "#f4f5f9",
-                fontStyle: "normal",
-                fontWeight: "normal",
+                fontFamily: "Roboto-Regular",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 justifyContent: "flex-start",
@@ -1303,8 +1133,7 @@ export class _Blank extends React.Component {
                   fontSize: 18,
                   color: "#ffffff",
                   backgroundColor: "#fd6f80",
-                  fontStyle: "normal",
-                  fontWeight: "normal",
+                  fontFamily: "Roboto-Regular",
                   borderColor: "#000000",
                   borderStyle: "solid",
                   borderWidth: 0,
